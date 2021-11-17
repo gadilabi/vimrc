@@ -17,7 +17,7 @@ set is
 nnoremap <leader>ev :vsplit $MYVIMRC<cr>
 
 " Stop search highlight
-nnoremap <Leader>h :noh<return><esc>
+nnoremap <space>h :noh<return><esc>
 
 " Add an empty line
 nnoremap <tab>o o<esc>k
@@ -42,9 +42,9 @@ vnoremap s <c-f>
 onoremap s <c-f>
 
 " scroll page up
-nnoremap <space>s <c-b>
-vnoremap <space>s <c-b>
-onoremap <space>s <c-b>
+nnoremap S <c-b>
+vnoremap S <c-b>
+onoremap S <c-b>
 
 " source vimscript in current file
 nnoremap <leader>s :source %<cr>
