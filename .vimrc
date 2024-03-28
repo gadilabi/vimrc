@@ -29,7 +29,7 @@ nnoremap <leader>" bi"<esc>lea"<esc>
 vnoremap <leader>" <esc>`<i"<esc>`>la"<esc>
 
 " window actions prefix
-nnoremap <space>w <c-w>
+nnoremap <tab> <c-w>
 
 " scroll to end
 nnoremap ge G
@@ -54,6 +54,9 @@ inoremap ( ()<esc>i
 inoremap { {}<esc>i
 inoremap [ []<esc>i
 inoremap " ""<esc>i
+
+" save
+nnoremap <space>s :w<cr>
 
 " autocommands
 ""autocmd VimLeave *.c mksession!
